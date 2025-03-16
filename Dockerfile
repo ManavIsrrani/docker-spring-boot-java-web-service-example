@@ -12,7 +12,7 @@ WORKDIR /app
 COPY /target/docker-java-app-example.jar /app
 
 # Make port 8080 available to the world outside this container
-EXPOSE 8080
+EXPOSE 9000
 
 # Run jar file when the container launches
 CMD ["java", "-jar", "docker-java-app-example.jar"]
